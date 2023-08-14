@@ -14,6 +14,14 @@
 
 <strong><span style="font-size: 20pt;color: #FF9900;"><p align="center">TRは開業5周年！！</p></span></strong>
 
+<table border="1" align="center" style="border-style:solid; border-collapse:collapse; border-width:3;">
+<tr>
+<td style="background-color:white">
+<h3><p align="center">※急告※<br>台風７号接近に伴う暴風雨のため、<br>全路線で運転を休止しております。</p></h3>
+</td>
+</tr>
+</table>
+
 <h2><p align="center">＊＊＊　概要　＊＊＊</p></h2>
 
 <span style="font-size: 12pt;"><p align="center">TR旅客鉄道は、西木ノ浜電気鉄道とのTRグループ会社です。<br>敷浜電鉄及び港南急行と相互直通運転を行っています。</p></span>
@@ -243,6 +251,41 @@ waitanimate.wstone.io
 .table-scroll table th{
   background:#eee;
   width:100px;
+}
+
+.table-scrolls{
+  overflow: auto; /*スクロールさせる*/
+  white-space: nowrap; /*文字の折り返しを禁止*/
+}
+
+.table-scrolls::-webkit-scrollbar{　　
+ height: 5px;
+}
+.table-scrolls::-webkit-scrollbar-track{
+ background: #800;
+}
+.table-scrolls::-webkit-scrollbar-thumb {
+ background: #999;
+}
+
+/* 以下、tableの指定 */
+.table-scrolls table{
+  border-collapse:collapse;
+  border-spacing:0;
+  border-top:#FF2222 solid 3px;
+  border-left:#FF2222 solid 3px;
+}
+.table-scrolls table th,
+.table-scrolls table td{
+  padding:10px 15px;
+  font-weight:normal;
+  border-right:#FF2222 solid 3px;
+  border-bottom:#FF2222 solid 3px;
+  font-size:13px;
+}
+.table-scrolls table th{
+  background:#eee;
+  width:150px;
 }
 </style>
 
